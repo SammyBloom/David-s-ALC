@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">David\'s ALC 4.0</string>
+    <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
+    <string name="about">ABOUT ALC</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="name">Uzoma David</string>
+    <string name="track">Track:</string>
+    <string name="android">Android</string>
+    <string name="email">Email:</string>
+    <string name="mail">uzomadavidc@gmail.com</string>
+    <string name="country">Country:</string>
+    <string name="nig">Nigeria</string>
+    <string name="phoneNo">+2348064943302</string>
+    <string name="phone">Phone No:</string>
+    <string name="slack">Slack:</string>
+    <string name="username">David</string>
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Profile">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/profile_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/profile"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/my_profile" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="@string/name"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/track"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/track"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/track"
+            android:layout_marginLeft="90dp"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:layout_below="@id/track"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mail"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/email"
+            android:layout_below="@id/track"
+            android:layout_marginLeft="90dp"/>
+
+        <TextView
+            android:id="@+id/country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/country"
+            android:layout_below="@id/email"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nig"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/email"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@id/country"
+            android:layout_marginLeft="72dp"/>
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:layout_below="@id/country"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phoneNo"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/country"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/phone"
+            android:layout_marginLeft="60dp"/>
+
+        <TextView
+            android:id="@+id/slack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slack"
+            android:layout_below="@id/phone"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/phone"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/slack"
+            android:layout_marginLeft="90dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
